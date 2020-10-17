@@ -1,33 +1,51 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+[![Next.js](https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js.png)](https://nextjs.org)
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-hosting">Hospedagem</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-playground">Playground</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E6&labelColor=121214" alt="License">
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+  <img src="https://img.shields.io/github/stars/rocketseat-content/blog-nextjs-mongodb-vercel?label=stars&message=MIT&color=8257E6&labelColor=121214" alt="Stars">  
+</p>
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+<br>
 
-## How to use
 
-## Deploy your own
+## 💻 Projeto
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+Criamos um Blog com NextJS e fizemos um post no [blog da Rocketseat](http://blog.rocketseat.com.br/) 💜 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?c=1&s=https://github.com/vercel/next.js/tree/canary/examples/blog-starter-typescript)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## 🚀 Tecnologias
 
-```bash
-npx create-next-app --example blog-starter-typescript blog-starter-typescript-app
-# or
-yarn create next-app --example blog-starter-typescript blog-starter-typescript-app
-```
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
+- [NextJS](https://nextjs.org/)
+- [MongoDB](https://expressjs.com/pt-br/)
+- [React](https://reactjs.org/)
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## 🌐 Hospedagem
 
-# Notes
+- [Mongo Atlas](https://cloud.mongodb.com/)
+- [Vercel](https://vercel.com/dashboard)
 
-This blog-starter-typescript uses [Tailwind CSS](https://tailwindcss.com). To control the generated stylesheet's filesize, this example uses Tailwind CSS' v1.4 [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+## 🎮 Playground
+
+- [Site](http://blog-rocketseat.vercel.app/)
+- [API](https://blog-rocketseat.vercel.app/api/page-views-preview?id=1)
+
+
+## 📝 Licença
+
+Fique a vontade <3
+
+---
+
+<p align="center">Desenvolvido com 💜 por Thiago Marinho | AX @ Rocketseat</p>
+
+
